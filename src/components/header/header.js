@@ -43,7 +43,7 @@ function Header() {
                                         return !randomCharMenu
                                     })}
                                     onBlur={() => showRandomChar(() => {
-                                        return !randomCharMenu
+                                        return false
                                     })}>Random Character</Button>
                             {randomChar}
                         </NavItem>

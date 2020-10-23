@@ -56,11 +56,9 @@ class ItemList extends Component {
 
     render() {
 
-        const {data} = this.props;
-
         return (
             <StyledListGroup>
-                {this.renderItems(data)}
+                {this.renderItems(this.props.data)}
             </StyledListGroup>
         );
     }

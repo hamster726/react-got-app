@@ -15,6 +15,7 @@ min-height: 320px;
 padding:  10px;
 
 @media (min-width: 1024px) {
+
     padding: 50px;
     border-radius: 0.25rem;
 }

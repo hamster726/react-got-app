@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Container} from 'reactstrap';
 import Header from '../header';
 import ErrorMessage from "../errorMessage";
-import GotService from "../../services/gotService"
 import styled from "styled-components";
 import CharactersPage from "../pages/charactersPage";
 import BooksPage from "../pages/booksPage";
@@ -21,8 +20,6 @@ padding: 0!important;
 height: 100%;
 
 @media (min-width: 1024px) {
-margin: inherit;
-padding: inherit;
 }
 
 `
@@ -66,7 +63,7 @@ export default class App extends Component {
 
                         <Route path='/characters/' exact>
                             <CharactersPage/>
-                        </Route>
+                        </Route>fi
                         <Route path='/houses/' exact>
                             <HousesPage/>
                         </Route>
